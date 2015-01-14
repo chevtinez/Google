@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Goggle</title>
+        <meta name="description" content="Marly's google replica">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="/img/favicon.ico" itemprop="image">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+
+        <div id="wholescreen">
+            <div class="topmenu">
+                <div class="rightoptions">
+                    <div class="option1">+You</div>
+                    <div class="option2">Gmail</div>
+                    <div class="option3">Images</div>
+                    <div class="option4">Apps</div>
+                    <div class="option5">Sign In</div>
+                </div>
+            </div>
+
+        </div>
+
+        <center>
+        <div class="content"><img id="boon" src="img/boondoggle.png" alt="My Google Knockofff" /></div>
+        <div class="form">
+            <div class="form-item form-type-textfield form-item-search-block-form simple-google-search">
+            <form action="http://google.ch/search" method="get">
+              <fieldset role="search">
+                <input type="hidden" name="q" value="site:scito.ch" />
+                <input class="search form-text" type="search" name="q" results="0" placeholder="Search" value="" id="google-search" title="Enter the terms you wish to search for."/ >
+              </fieldset>
+            </form>
+
+            <!-- <form action="" method="get">
+                <fieldset role="search">
+                    <input class="searchfield" type="search" results="0" placeholder="Search" value="" title="Enter your search words here..." size="50" />
+                </fieldset>
+            </form> -->
+            
+        </div>
+        <button id="gbqfba" class="gbqfba" name="btnK" aria-label="Google Search">
+            <span id="gbqfsa">Google Search</span>
+        </button>
+        <button id="gbqfbb" class="gbqfba" name="btnI" onclick="google.x(this,function() {google.ifl && google.ifl.o();})" aria-label="I'm Feeling Lucky">
+        <span id="gbqfsb">I'm Feeling Lucky</span>
+        </button>
+        <div class="fbar">This is my footer bar</div>
+        </div>
+        </center>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
